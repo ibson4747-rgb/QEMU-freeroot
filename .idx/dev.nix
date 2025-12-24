@@ -6,6 +6,9 @@
   packages = [
     pkgs.unzip
     pkgs.openssh
+    pkgs.tigervnc
+    pkgs.openbox
+    pkgs.novnc
     pkgs.git
     pkgs.qemu_kvm
     pkgs.sudo
