@@ -10,14 +10,14 @@ set -euo pipefail
 # CONFIG
 # =============================
 VM_DIR="$(pwd)/vm"
-IMG_URL="https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img"
+IMG_URL="https://cloud-images.ubuntu.com/bionic/20230425/bionic-server-cloudimg-amd64.img"
 IMG_FILE="$VM_DIR/ubuntu-image.img"
 UBUNTU_PERSISTENT_DISK="$VM_DIR/persistent.qcow2"
 SEED_FILE="$VM_DIR/seed.iso"
 MEMORY=16G
-CPUS=4
+CPUS=8
 SSH_PORT=2222
-DISK_SIZE=80G
+DISK_SIZE=128G
 IMG_SIZE=20G
 HOSTNAME="ubuntu"
 USERNAME="ubuntu"
